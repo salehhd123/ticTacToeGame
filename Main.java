@@ -253,7 +253,7 @@ public class Main {
         int tie = 0;
         while (true) {
         System.out.println("enter number between 1-9 !");
-            //check user only taken empty place and must enter between 1-9 !
+            //check user only take empty place and must enter between 1-9 !
             userMove = inp.nextLine();
             while (!validMoveByUser(userMove)){
                 userMove = inp.nextLine();
@@ -270,7 +270,7 @@ public class Main {
                 }else {
                 int computerMove;
 
-                //check computer only taken empty place !
+                //check computer only take empty place !
                 while (true) {
                     computerMove = ran.nextInt(9) + 1;
                     if (empty(computerMove)) {
